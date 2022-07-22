@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>바이헤이데이</title>
+        <link rel="shortcut icon" href="img/common/favicon.png">
+        <!--ios용 아이콘-->
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/common/favicon_ios.png">
+        <!--안드로이드용 아이콘-->
+        <link rel="icon" type="images/png" sizes="192x192" href="img/common/favicon_android.png">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="popup">
+                <div class="pTop">
+                    <a href="#closepop" title="팝업창 닫기" class="pclose">
+                        <span class="line01"></span>
+                        <span class="line02"></span>
+                    </a>
+                    <p class="pleft">
+                        본 사이트는 상업적인 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. <br>
+                        홈페이지의 일부 내용과 이미지 등은 그 출처가 따로 있음을 밝힙니다. 
+                    </p>
+                    <p class="mpleft">
+                        본 사이트는 상업적인 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다.
+                        홈페이지의 일부 내용과 이미지 등은 그 출처가 따로 있음을 밝힙니다. 
+                    </p>
+                    <p class="pright">
+                        본 사이트는 HTML5와 CSS3 를 기준으로 하여 크롬, 사파리, 오페라, 파이어폭스 IE9이상 
+                        브라우저에 맞춘 반응형홈페이지로 PC, 태블릿, 모바일 모두 지원합니다.
+                    </p>
+                </div>
+            <div class="pBottom">
+                <form action="#">
+                    <fieldset>
+                        <legend>오늘 하루 보지않기 폼</legend>
+                        <input type="checkbox" id="chkBox">
+                        <label for="chkBox">오늘 하루 보이지 않기</label>
+                    </fieldset>
+                </form>
+            </div>
+		</div>
+        <header>
+            <div class="wrap">
+                <div class="panelbtn">
+                    <a href="#" title="메인메뉴보기">
+                        <span class="line01"></span>
+                        <span class="line02"></span>
+                        <span class="line03"></span>
+                    </a>
+                </div>
+                <div class="blackbg"></div>
+                <div class="hlogo">
+                    <h1>
+                        <a href="index.html" title="바이헤이데이메인 바로가기">
+                            <img src="img/common/logo.png" alt="바이헤이데이 로고">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="gnb">
+                    <div class="paneltop">
+                        <a href="#" class="plogin">로그인 하세요</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" title="FURNITURE 하위메뉴보기" class="topnav topnav01">
+                                FURNITURE
+                                <span class="line01"></span>
+                                <span class="line02"></span>
+                            </a>
+                            <ul class="subnav sub01">
+                                <li><a href="#" title="Sofa 페이지 바로가기">Sofa</a></li>
+                                <li><a href="#" title="Table 페이지 바로가기">Table</a></li>
+                                <li><a href="#" title="Chair 페이지 바로가기">Chair</a></li>
+                                <li><a href="#" title="Shelf 페이지 바로가기">Shelf</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="LIGHTING 하위메뉴보기" class="topnav topnav02">
+                                LIGHTING
+                                <span class="line01"></span>
+                                <span class="line02"></span>
+                            </a>
+                            <ul class="subnav sub02">
+                                <li><a href="#" title="Table 페이지 바로가기">Table</a></li>
+                                <li><a href="#" title="Floor 페이지 바로가기">Floor</a></li>
+                                <li><a href="#" title="Pendant 페이지 바로가기">Pendant</a></li>
+                                <li><a href="#" title="Wall 페이지 바로가기">Wall</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="WE LOVE PET 하위메뉴보기" class="topnav">WE LOVE PET</a>
+                        </li>
+                        <li>
+                            <a href="#" title="EVENT 하위메뉴보기" class="topnav">EVENT</a>
+                        </li>
+                        <li>
+                            <a href="#" title="REVIEW 하위메뉴보기" class="topnav">REVIEW</a>
+                        </li>
+                        <li class="last">
+                            <a href="#" title="BYHEYDEY TV 하위메뉴보기" class="topnav">BYHEYDEY TV</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="leftnav">
+                    <ul>
+                        <li><a href="#" class="login">Login</a></li>
+                        <li><a href="#">Join</a></li>
+                    </ul>
+                </div>
+                <!--서브네비 배경-->
+                <div class="subnavbg"></div>
+            </div> 
+        </header>                    
+        <div class="mslider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li class="ms01">
+                        <img src="img/main/main_tablets_slider01.jpg" alt="헤드레스트 소파 쿠보 소파 신규 사이즈 런칭" class="tablet">
+                        <img src="img/main/main_mobile_slider01.png" alt="헤드레스트 소파 쿠보 소파 신규 사이즈 런칭" class="mobile">
+                        <p class="eng">
+                            CUBO SOFA <br>
+                            NEW SIZE LAUNCHING
+                        </p>
+                        <p class="kor">
+                            헤드레스트 소파 <br>
+                            쿠보 소파 신규 사이즈 런칭
+                        </p>
+                    </li>
+                    <li class="ms02">
+                        <img src="img/main/main_tablets_slider02.jpg" alt="멀티 큐브 테이블 리뉴얼" class="tablet">
+                        <img src="img/main/main_mobile_slider02.png" alt="멀티 큐브 테이블 리뉴얼" class="mobile">
+                        <p class="eng">
+                            BYHEYDEY <br>
+                            MULTI CUBE TABLE RENEWAL
+                        </p>
+                        <p class="kor">
+                            멀티 큐브 테이블 리뉴얼
+                        </p>
+                    </li>
+                    <li class="ms03">
+                        <img src="img/main/main_tablets_slider03.jpg" alt="항상 새것처럼 깨끗하게 바이헤이데이가 제안하는 요즘 소파" class="tablet">
+                        <img src="img/main/main_mobile_slider03.png" alt="항상 새것처럼 깨끗하게 바이헤이데이가 제안하는 요즘 소파" class="mobile">
+                        <p class="eng">
+                            BYHEYDEY <br>
+                            STEADY SELLER ECOCLEAN
+                        </p>
+                        <p class="kor">
+                            항상 새것처럼 깨끗하게 <br>
+                            바이헤이데이가 제안하는 요즘 소파
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product">
+            <ul>
+                <li class="product01 pcol01 mcol01">
+                    <a href="#">
+                        <img src="img/main/main_product01.png" alt="sofa">
+                        <div class="text">
+                            <h3>Sofa</h3>
+                            <p>
+                                어느 공간에서나 어울리는 모던한 디자인과 세련되고 안정감 있는 다리로 탄탄한 내구성을 가지고 있습니다. 앉았을 때 포근하고 부드러움을 느끼게 해드립니다.
+                            </p>
+                        </div>
+                        <div class="overtext">
+                            <h3>Sofa</h3>
+                            <p>View product</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product02 pcol01 mcol01">
+                    <a href="#">
+                        <img src="img/main/main_product02.png" alt="table">
+                        <div class="text">
+                            <h3>Table</h3>
+                            <p>
+                                심플하고 내구성이 높아 흔들리지 않고 어떤 공간에서 두어도 은은한 분위기를 연출 할 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="overtext">
+                            <h3>Table</h3>
+                            <p>View product</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product03 pcol01 mcol01">
+                    <a href="#">
+                        <img src="img/main/main_product03.png" alt="chair">
+                        <div class="text">
+                            <h3>Chair</h3>
+                            <p>
+                                심플한 디자인이지만 그 안에서도 무드가 담겨 있습니다. 필요한 요소로만 디자인 되어 깔끔하게 제작하고 앉아서 기대었을 때 편안함이 느껴집니다.
+                            </p>
+                        </div>
+                        <div class="overtext">
+                            <h3>Chair</h3>
+                            <p>View product</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="product04 pcol01 mcol01">
+                    <a href="#">
+                        <img src="img/main/main_product04.png" alt="lighting">
+                        <div class="text">
+                            <h3>Lighting</h3>
+                            <p>
+                                빛이 항상 작업 공간 안에서 이상적인 위치에 놓여 질수 있도록하고 어떠한 배경에도 우아하고 평화롭게 어우러 집니다.
+                            </p>  
+                        </div>
+                        <div class="overtext">
+                            <h3>Lighting</h3>
+                            <p>View product</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contents">
+            <div class="contents01">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li class="con01 mcol2">
+                            <a href="#">
+                                <img src="img/main/main_contents01.png" alt="LowTable 02 900 이미지" class="tamo">
+                                <h3>BYHEYDEY</h3>
+                                <p>LowTable 02 900</p>
+                            </a>
+                        </li>
+                        <li class="con02 mcol2">
+                            <a href="#">
+                                <img src="img/main/main_contents02.png" alt="Ston Side Table - Medium 이미지" class="tamo">
+                                <h3>LALA HEYDEY</h3>
+                                <p>Ston Side Table - Medium</p>
+                            </a>
+                        </li>
+                        <li class="con03 mcol2">
+                            <a href="#">
+                                <img src="img/main/main_contents03.png" alt="Ditto Wood Chair 이미지" class="tamo">
+                                <h3>LALA HEYDEY</h3>
+                                <p>Ditto Wood Chair</p>
+                            </a>
+                        </li>
+                        <li class="con04 mcol2">
+                            <a href="#">
+                                <img src="img/main/main_contents04.png" alt="LowTable 02 900 이미지" class="tamo">
+                                <h3>BYHEYDEY</h3>
+                                <p>Multi Sofa 01 Mini Water safe </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="contents02">
+                <li class="mcol01">
+                    <a href="#" class="con05">
+                        <img src="img/main/main_contents05_tablets.png" alt="거실 공간의 독특한 인테리어 소품" class="tablets">
+                        <img src="img/main/main_contents05_mobile.png" alt="거실 공간의 독특한 인테리어 소품" class="mobile">
+                        <span class="context">
+                            <h3>
+                                BYHEYDEY POUF <br>
+                                SERLES
+                            </h3>
+                            <p>거실 공간의 독특한 인테리어 소품</p>
+                        </span>
+                    </a>
+                </li>
+                <li class="mcol01">
+                    <a href="#" class="con06">
+                        <img src="img/main/main_contents06_tablets.png" alt="카우치 처럼 활용이 가능 한 멀티소파 오토만" class="tablets">
+                        <img src="img/main/main_contents06_mobile.png" alt="카우치 처럼 활용이 가능 한 멀티소파 오토만" class="mobile">
+                        <span class="context">
+                            <h3>
+                            BYHEYDEY MULTI <br>
+                            SOFA OTTOMAN
+                        </h3>
+                        <p>카우치 처럼 활용이 가능 한 멀티소파 오토만</p>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="eventnoti">
+            <ul class="pctaevent">
+                <li class="event01 tcol06">
+                    <a href="#">
+                        <img src="img/main/main_event01.png" alt="2019 하반기 샘플 & 데미지 제품 창고 대방출 이미지" class="tamo">
+                        <div class="eventtext">
+                            <h3>SAMPLE &amp; DAMAGE SALE</h3>
+                            <p>샘플 &amp; 데미지 제품 창고 대방출</p>
+                            <p class="date">2019.11.22 ~ 2019.11.24</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="event02 tcol06">
+                    <a href="#">
+                        <img src="img/main/main_event02.png" alt="소파 맛집으로 소문난 바이헤이데이! 이미지" class="tamo">
+                        <div class="eventtext">
+                            <h3>TASTY BYHEYDEY</h3>
+                            <p>소파 맛집으로 소문난 바이헤이데이!</p>
+                            <p class="date">2019.11.01 ~ 2019.11.30</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="swiperevent">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide .mcol02">
+                            <a href="#">
+                                <img src="img/main/main_event01.png" alt="2019 하반기 샘플 & 데미지 제품 창고 대방출 이미지" class="tamo">
+                                <div class="eventtext">
+                                    <h3>SAMPLE &amp; DAMAGE SALE</h3>
+                                    <p>샘플 &amp; 데미지 제품 창고 대방출</p>
+                                    <p class="date">2019.11.22 ~ 2019.11.24</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide .mcol02">
+                            <a href="#">
+                                <img src="img/main/main_event02.png" alt="소파 맛집으로 소문난 바이헤이데이! 이미지" class="tamo">
+                                <div class="event02 eventtext">
+                                    <h3>TASTY BYHEYDEY</h3>
+                                    <p>소파 맛집으로 소문난 바이헤이데이!</p>
+                                    <p class="date">2019.11.01 ~ 2019.11.30</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <ul class="notice">
+                <li class="notice01 tcol03">
+                    <a href="#">
+                        <img src="img/main/main_notice01.png" alt="카카오톡 플러스 친구 이미지">
+                        <h3>
+                            카카오톡 <br>
+                            플러스 친구 <br>
+                            ID : 바이헤이데이
+                        </h3>
+                    </a>
+                </li>
+                <li class=" notice02 tcol03">
+                    <a href="#">
+                        <img src="img/main/main_notice02.png" alt="Heydey TV OPEN 이미지">
+                        <h3>Heydey TV OPEN</h3>
+                    </a>
+                </li>
+                <li class=" notice03 tcol03">
+                    <a href="#">
+                        <img src="img/main/main_notice03.png" alt="LALA HEYDEY 이미지">
+                        <h3>LALA HEYDEY</h3>
+                    </a>
+                </li>
+                <li class="notice04 tcol03">
+                    <a href="#">
+                        <img src="img/main/main_notice04.png" alt="SMALL STUFF 이미지">
+                        <h3>SMALL STUFF</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+           <div class="ftop">
+                <a href="#" class="flogo">
+                    <img src="img/common/logo.png" alt="바이헤이데이 로고">
+                </a>
+                <div class="ftext">
+                    <ul class="ftext01">
+                       <li>(주) 스튜디오헤이데이</li>
+                       <li>대표 : 노환탁</li>
+                    </ul>
+                    <a href="mailto:info@studioheydey.com" class="email">
+                        info@studioheydey.com
+                    </a>
+                    <ul class="ftext02">
+                       <li>쇼룸 : 서울시 마포구 서교동 395-106</li>
+                       <li>본사 : 서울시 마포구 양화로 10길 20(서교동)</li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li class="navershop"><a href="#" title="바이헤이데이 네이버 쇼핑 바로가기"></a></li>
+                        <li class="naverblog"><a href="#" title="바이헤이데이 네이버 블로그 바로가기"></a></li>
+                        <li class="facebook"><a href="#" title="바이헤이데이 페이스북 바로가기"></a></li>
+                        <li class="insta"><a href="#" title="바이헤이데이 인스타그 바로가기"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fbottom">
+                <ul class="ftext03">
+                    <li>통신판매 신고번호 : 2009마포1249</li>
+                    <li>사업자등록번호 : 105-87-18086</li>
+                    <li>개인정보 담당자 : 노동균</li>
+                </ul>
+                <p>COPYRIGHT©2019 BYHEYDEY. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
