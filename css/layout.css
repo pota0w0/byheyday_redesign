@@ -1,0 +1,38 @@
+/* pc */
+@media screen and (min-width: 1024px){
+    .pcol01{ float: left; width: 25%; padding: 0 10px; box-sizing: border-box; }
+    .pcol02{ float: left; width: 50%; padding: 0 10px; box-sizing: border-box; }
+    .pcol03{ float: left; width: 75%; padding: 0 10px; box-sizing: border-box; }
+    .pcol04{ float: left; width: 100%; padding: 0 10px; box-sizing: border-box; }
+}
+
+@media screen and (min-width: 1180px){
+    .pcol01{ float: left; width: 25%; padding: 0 10px; box-sizing: border-box; }
+    .pcol02{ float: left; width: 50%; padding: 0 10px; box-sizing: border-box; }
+    .pcol03{ float: left; width: 75%; padding: 0 10px; box-sizing: border-box; }
+    .pcol04{ float: left; width: 100%; padding: 0 10px; box-sizing: border-box; }
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:1179px){
+    .tcol01{ float: left; width: 8.33%;}
+    .tcol02{ float: left; width: 16.66%;}
+    .tcol03{ float: left; width: 25%;}
+    .tcol04{ float: left; width: 33.33%;}
+    .tcol05{ float: left; width: 41.66%;}
+    .tcol06{ float: left; width: 50%;}
+    .tcol07{ float: left; width: 58.33%;}
+    .tcol08{ float: left; width: 66.66%;}
+    .tcol09{ float: left; width: 75%;}
+    .tcol10{ float: left; width: 83.33%;}
+    .tcol11{ float: left; width: 91.66%;}
+    .tcol12{ float: left; width: 100%;}
+}
+
+/* mobile */
+@media screen and (max-width:767px){
+    .mcol01{ float: left; width: 50%; padding: 0 10px; box-sizing: border-box; }
+    .mcol02{ float: left; width: 100%; padding: 0 10px; box-sizing: border-box; }
+}
+
